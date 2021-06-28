@@ -109,10 +109,18 @@ nav .active a {
   font-size: 12px;
   text-decoration: none;
 }
+.banner_schedule {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ffffff69;
+  font-size: 15px;
+}
+
 #geral {
   display: flex;
   justify-content: center;
-  height: 50rem;
 }
 #geral section {
   flex: 2;
@@ -120,6 +128,7 @@ nav .active a {
 #geral aside {
   flex: 1;
 }
+
 .widget_title {
   margin-top: 2rem;
   margin-bottom: 1.25rem;
@@ -134,4 +143,131 @@ nav .active a {
   height: 2px;
   background: #42b3e5;
   margin-top: 10px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+}
+aside .departments {
+}
+.departments .widget_body {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.widget_body .widget_content {
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  background: #01ace4;
+}
+aside .query {
+  font-size: 16px;
+}
+.contact {
+  margin-top: 1rem;
+}
+.contact_body {
+  margin: 1rem 0;
+}
+.query .contact_body i {
+  font-size: 1.25rem;
+  margin-right: 1rem;
+}
+.division {
+  height: 1px;
+  background: #ccc;
+}
+article {
+  flex: 1;
+  min-width: 300px;
+  margin-right: 20px;
+}
+article a {
+  text-decoration: none;
+}
+article .news_data {
+  display: flex;
+}
+article .news_posted_at {
+  background-color: #3156a3;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px;
+  margin-right: 2px;
+}
+article .news_comments {
+  background-color: #42b3e5;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px;
+}
+article .news_thumbnail {
+  margin-top: 30px;
+}
+article .news_thumbnail img {
+  width: 100%;
+  height: auto;
+}
+article .news_title {
+  margin: 1.5625rem 0;
+  color: #000;
+  font-size: 1.5rem;
+}
+article .news_resume {
+  font-size: 0.875rem;
+  color: #5c5c5c;
+  line-height: 1.25rem;
+  margin-bottom: 30px;
+}
+footer {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+}
+.footer_menu {
+  display: flex;
+}
+.flexColumn {
+  flex-direction: column;
+}
+.fm1,
+.fm2,
+.fm3 {
+  flex: 1;
+  color: #fff;
+  padding: 1.25rem;
+}
+.fm1 {
+  background-color: #42b3e5;
+}
+.fm2 {
+  background-color: #0284ce;
+}
+.fm3 {
+  background-color: #3156a3;
+}
+.footer_area {
+  display: flex;
+  color: #fff;
+}
+.footer_areaitem {
+  flex: 1;
+}
+footer .widget_title_text {
+  color: #fff;
+  font-weight: 400;
+}
+.footer_copy {
+  color: #c5c5c5;
+  border-top: 1px solid #2c2c2c;
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  margin-top: 30px;
 }
