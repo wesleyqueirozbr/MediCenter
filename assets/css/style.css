@@ -7,12 +7,12 @@
 header {
   display: flex;
   justify-content: center;
-  height: 4.25rem;
+  height: 4.5rem;
 }
 .container {
   display: flex;
   justify-content: space-between;
-  width: 61.875rem;
+  width: 990px;
 }
 .logo {
   display: flex;
@@ -53,7 +53,7 @@ nav .active a {
   background-image: url('../images/img1.jpg');
   background-position: center;
   background-size: cover;
-  height: 37rem;
+  height: 670px;
 }
 .column {
   flex-direction: column;
@@ -270,4 +270,126 @@ footer .widget_title_text {
   line-height: 40px;
   font-size: 12px;
   margin-top: 30px;
+}
+.widget_footer {
+  color: #acacac;
+  font-weight: 400;
+}
+table {
+  border-spacing: 0;
+}
+.tdEspaco {
+  display: table;
+  margin-right: 2.6rem;
+  margin-top: 0.25rem;
+}
+.widget_footer_infos {
+  margin-top: 1.25rem;
+}
+.widget_footer_socialmedia {
+  display: flex;
+  margin-top: 1.2rem;
+}
+.widget_footer_socialmedia_icon {
+  background-color: #acacac;
+
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+.widget_footer_socialmedia_icon a {
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+}
+.widget_footer_post_resume {
+  margin-top: 10px;
+  color: #fff;
+}
+.widget_footer_post_date {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #39aae1;
+}
+
+.menuMobile {
+  display: none;
+  width: 40px;
+  height: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+
+.mm_line {
+  height: 3px;
+  background-color: #39aae1;
+}
+
+@media (max-width: 720px) {
+  .logo {
+    padding: 20px;
+  }
+  .banner_headline {
+    padding: 40px;
+  }
+  .banner_headline h1 {
+    font-size: 55px;
+  }
+  .banner_headline h2 {
+    font-size: 17px;
+  }
+
+  .banner_options {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+  #banner {
+    margin-bottom: 120px;
+  }
+  #geral section,
+  #geral aside {
+    padding: 20px;
+  }
+  .footer_menu {
+    flex-direction: column;
+  }
+  .footer_area {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .footer_copy {
+    padding-left: 20px;
+  }
+
+  header .container {
+    flex-direction: row;
+  }
+
+  nav ul {
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+  }
+
+  header {
+    height: auto;
+  }
+  .logo {
+    padding-left: 20px;
+  }
+
+  .menuMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
